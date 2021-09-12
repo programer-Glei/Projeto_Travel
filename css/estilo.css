@@ -123,7 +123,7 @@ header .search-bar-container label:hover{
 
 .login-form-container{
     position: fixed;
-    top: 0; left: 0;
+    top: -120%; left: 0;
     z-index: 10000;
     min-height: 100vh;
     width: 100%;
@@ -183,4 +183,12 @@ header .search-bar-container label:hover{
 .login-form-container form p a:hover{
     color: #333;
     text-decoration: underline;
+}
+
+.login-form-container #form-close{
+    position: fixed;
+    top: 2rem; right: 3rem;
+    font-size: 5rem;
+    color: #fff;
+    cursor: pointer;
 }
