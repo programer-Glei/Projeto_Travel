@@ -57,3 +57,10 @@ header .navbar a{
 header .navbar a:hover{
     color: var(--orange)
 }
+
+header .icons i{
+    font-size: 2.5rem;
+    color: #fff;
+    cursor: pointer;
+    margin-right: 2rem;
+}
