@@ -132,3 +132,24 @@ header .search-bar-container label:hover{
     text-align: center;
     padding: 1rem 0;
 }
+
+.login-form-container form .box{
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.7rem;
+    color: #333;
+    margin: .6rem 0;
+    border: .1rem solid rgba(0, 0, 0, 0.3);
+}
+
+.login-form-container form .box:focus{
+    border-color: var(--orange);
+}
+
+.login-form-container form #relembrar{
+    margin: 2rem 0;
+}
+
+.login-form-container form label{
+    
+}
