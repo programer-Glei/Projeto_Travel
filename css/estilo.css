@@ -133,6 +133,10 @@ header .search-bar-container label:hover{
     justify-content: center;
 }
 
+.login-form-container.active{
+    top: 0;
+}
+
 .login-form-container form{
     margin: 2rem;
     padding: 1.5rem 2rem;
@@ -186,7 +190,7 @@ header .search-bar-container label:hover{
 }
 
 .login-form-container #form-close{
-    position: fixed;
+    position: absolute;
     top: 2rem; right: 3rem;
     font-size: 5rem;
     color: #fff;
