@@ -88,3 +88,14 @@ header .search-bar-container #search-bar{
     font-size: 1.7rem;
     border-radius: .5rem;
 }
+
+header .search-bar-container label{
+    color: #fff;
+    cursor: pointer;
+    font-size: 3rem;
+    margin-left: 1.5rem;
+}
+
+header .search-bar-container label:hover{
+    color: var(--orange);
+}
