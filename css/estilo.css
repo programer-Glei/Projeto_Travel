@@ -19,6 +19,22 @@
     color: #fff;
 }
 
+.btn{
+    display: inline-block;
+    margin-top: 1rem;
+    background: var(--orange);
+    color: #fff;
+    padding: .8rem 3rem;
+    border: .2rem solid var(--orange);
+    cursor: pointer;
+    font-size: 1.7rem;
+}
+
+.btn:hover{
+    background: rgba(255, 165, 0, .2);
+    color: var(--orange);
+}
+
 html{
     font-size: 62.5%;
     overflow-x: hidden;
@@ -151,5 +167,5 @@ header .search-bar-container label:hover{
 }
 
 .login-form-container form label{
-    
+    font-size: 1.5rem;
 }
