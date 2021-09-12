@@ -64,3 +64,11 @@ header .icons i{
     cursor: pointer;
     margin-right: 2rem;
 }
+
+header .icons i:hover{
+    color: var(--orange);
+}
+
+header .search-bar-container{
+    
+}
