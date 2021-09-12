@@ -221,3 +221,25 @@ header .search-bar-container label:hover{
         padding: 2rem;
     }
 }
+
+@media (max-width:768px){
+    #menu-bar{
+        display: initial;
+    }
+
+    header .navbar{
+        position: absolute;
+        top: 100%; right: 0; left: 0;
+        background: #333;
+        border-top: .1rem solid rgba(255, 255, 255, .2);
+        padding: 1rem 2rem;
+    }
+
+    header .navbar a{
+        display: block;
+        border-radius: .5rem;
+        padding: 1.5rem;
+        margin: 1.5rem;
+        background: #222;
+    }
+}
