@@ -169,3 +169,18 @@ header .search-bar-container label:hover{
 .login-form-container form label{
     font-size: 1.5rem;
 }
+
+.login-form-container form p{
+    padding: .5rem 0;
+    font-size: 1.5rem;
+    color: #666;
+}
+
+.login-form-container form p a{
+    color: var(--orange);
+}
+
+.login-form-container form p a:hover{
+    color: #333;
+    text-decoration: underline;
+}
