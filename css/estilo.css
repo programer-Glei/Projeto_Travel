@@ -327,6 +327,38 @@ header .search-bar-container label:hover{
     color: #666;
 }
 
+.pakages .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.pakages .box-container .box{
+    flex: 1 1 30rem;
+    border-radius: .5rem;
+    overflow: hidden;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+}
+
+.pakages .box-container .box img{
+    height: 25rem;
+    width: 100%;
+    object-fit: cover;
+}
+
+.pakages .box-container .box .content{
+    padding: 2rem;
+}
+
+.pakages .box-container .box .content h3{
+    font-size: 2rem;
+    color: #333;
+}
+
+.pakages .box-container .box .content h3 i{
+    color: var(--orange);
+}
+
 
 /* media queries */
 
