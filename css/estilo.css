@@ -359,6 +359,29 @@ header .search-bar-container label:hover{
     color: var(--orange);
 }
 
+.pakages .box-container .box .content p{
+    font-size: 1.7rem;
+    color: #666;
+    padding: 1rem 0;
+}
+
+.pakages .box-container .box .content .stars i{
+    font-size: 1.7rem;
+    color: var(--orange)
+}
+
+.pakages .box-container .box .content .price{
+    font-size: 2rem;
+    color: #333;
+    padding-top: 1rem;
+}
+
+.pakages .box-container .box .content .price span{
+    color: #666;
+    font-size: 1.5rem;
+    text-decoration: line-through;
+}
+
 
 /* media queries */
 
