@@ -382,6 +382,21 @@ header .search-bar-container label:hover{
     text-decoration: line-through;
 }
 
+.services .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.services .box-container .box{
+    flex: 1 1 30rem;
+    border-radius: .5rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+
+
 
 /* media queries */
 
