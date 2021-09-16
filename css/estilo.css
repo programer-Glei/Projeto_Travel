@@ -395,7 +395,21 @@ header .search-bar-container label:hover{
     text-align: center;
 }
 
+.services .box-container .box i{
+    padding: 1rem;
+    font-size: 5rem;
+    color: var(--orange);
+}
 
+.services .box-container .box h3{
+    font-size: 2.5rem;
+    color: #333;
+}
+
+.services .box-container .box p{
+    font-size: 1.5rem;
+    color: #666;
+}
 
 
 /* media queries */
