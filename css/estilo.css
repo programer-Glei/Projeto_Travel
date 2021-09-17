@@ -409,6 +409,11 @@ header .search-bar-container label:hover{
 .services .box-container .box p{
     font-size: 1.5rem;
     color: #666;
+    padding: 1rem 0;
+}
+
+.services .box-container .box:hover{
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
 }
 
 
