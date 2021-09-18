@@ -546,6 +546,21 @@ header .search-bar-container label:hover{
     text-align: center;
 }
 
+.footer{
+    background: #333;
+}
+
+.footer .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.footer .box-container .box{
+    padding: 1rem 0;
+    flex: 1 1 25rem;
+}
+
 
 /* media queries */
 
