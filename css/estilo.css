@@ -499,6 +499,25 @@ header .search-bar-container label:hover{
     font-size: 1.7rem;
 }
 
+.contact .row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.contact .row .image{
+    flex: 1 1 35rem;
+}
+
+.contact .row .image img{
+    width: 100%;
+}
+
+.contact .row form{
+    flex: 1 1 50rem;
+}
+
 
 /* media queries */
 
