@@ -527,13 +527,19 @@ header .search-bar-container label:hover{
     justify-content: space-between;
 }
 
-.contact .row form .inputBox input{
+.contact .row form .inputBox input, .contact .row form textarea{
     width: 49%;
     margin: 1rem 0;
     padding: 1rem;
     font-size: 1.7rem;
     color: #333;
     background: #f7f7f7;
+}
+
+.contact .row form textarea{
+    height: 15rem;
+    resize: none;
+    width: 100%;
 }
 
 
@@ -590,5 +596,9 @@ header .search-bar-container label:hover{
 
     .heading span{
         font-size: 2.5rem;
+    }
+
+    .contact .row form .inputBox input{
+        width: 100%;
     }
 }
