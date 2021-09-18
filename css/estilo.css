@@ -440,11 +440,28 @@ header .search-bar-container label:hover{
 
 .gallery .box-container .box .content{
     position: absolute;
-    top: 0; left: 0;
+    top: -100%; left: 0;
     height: 100%;
     width: 100%;
     text-align: center;
     background: rgba(0, 0, 0, 0.7);
+    padding: 2rem;
+    padding-top: 5rem;
+}
+
+.gallery .box-container .box:hover .content{
+    top: 0;
+}
+
+.gallery .box-container .box .content h3{
+    font-size: 2.5rem;
+    color: var(--orange);
+}
+
+.gallery .box-container .box .content p{
+    font-size: 1.5rem;
+    color: #eee;
+    padding: .5rem 0;
 }
 
 
